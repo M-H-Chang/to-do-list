@@ -1,8 +1,27 @@
 // -----Utility Logic-----
-5
+
 // -----Business Logic-----
 function TodoList() {
   this.list = {};
+  this.currentId = 0;
+}
+
+TodoList.prototype.addItem = function (item) {
+  item.id = this.assignId();
+  this.list[item.id] = item
+}
+
+TodoList.prototype.assignId = function () {
+  this.currentId += 1;
+  return this.currentId;
+}
+
+function TodoItem(todo) {
+  this.item = item;
+}
+
+TodoItem.prototype = function () {
+  return this.item;
 }
 // -----User Interface Logic-----
 $(document).ready(function () {
