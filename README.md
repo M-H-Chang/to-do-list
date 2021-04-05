@@ -1,8 +1,8 @@
-# _Programming Language Selector_
+# _To Do List Appender_
 
-#### _Gives user a result of which programming language to study._
-
-#### By _**Min Chang**_
+#### _Gives users a way to append their to do list as well as mark it done._
+ 
+#### By _**Min Chang & Carlos Mendez**_
 
 ## Technologies Used
 
@@ -15,13 +15,12 @@
 
 ## Description
 
-_The website has been published and the link is: https://m-h-chang.github.io/language-suggester/
-Many people have trouble with picking a programming language to start out. This webpage gathers information about your personality such as interests, what type of development you want to implement into your code, what kind of companies you are interested in, your personality type by animal(certain animals indicate the language you should pursue), and why you chose to pursue computer science. Once we have all those indicators, our program will generate a language for the person to pursue. We also have consultants who will reach out to the user to pursue further conversation about other specifics to provide even better feedback to the user. Users also have the chance to test which personality types/interests gets you different language outputs._
+_The idea here is to let users compile a simple to do list for their own personal lives. Users will enter through an input and that list will append it onto the page. Once it is appended through the backend there will be a logic that will let you cross off the to do items based on completion of the user._
 
 ## Setup/Installation Requirements
 
 * _Log onto github_
-* _Access the repository of language-suggester_
+* _Access the repository of to do list_
 * _Copy clone link_
 * _Access local repository and which directory you want to clone from_
 * _Gitclone_
@@ -62,3 +61,6 @@ _
 ## Contact Information
 
 _Min Chang: email: minchangmhc@gmail.com_
+
+## Specs
+
