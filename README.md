@@ -64,3 +64,16 @@ _Min Chang: email: minchangmhc@gmail.com_
 
 ## Specs
 
+Describe TodoList()
+
+Test: It should return an array of to-do list items.
+Code: TodoList("bake cookies");
+Expected Output: ["bake cookies"]
+
+Test: It should return an Id that is specified to that specific input.
+Code: TodoList("cook", "clean");
+Expected Output: ["cook"(1), "clean"(2)]
+
+
+
+

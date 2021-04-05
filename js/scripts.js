@@ -6,9 +6,9 @@ function TodoList() {
   this.currentId = 0;
 }
 
-TodoList.prototype.addItem = function (item) {
-  item.id = this.assignId();
-  this.list[item.id] = item
+TodoList.prototype.addTodoItem = function (item) {
+  item.Id = this.assignId();
+  this.list[item.Id] = item;
 }
 
 TodoList.prototype.assignId = function () {
@@ -16,7 +16,7 @@ TodoList.prototype.assignId = function () {
   return this.currentId;
 }
 
-function TodoItem(todo) {
+function TodoItem(item) {
   this.item = item;
 }
 
